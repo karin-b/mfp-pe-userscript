@@ -11,7 +11,7 @@
 2. After installing the Tampermonkey plugin, go to [mfp.pe.user.js]("../../raw/master/mfp.pe.user.js") to install this script.
 
 ## Upgrade:
-Visit [mfpketo.user.js]("../../raw/master/mfp.pe.user.js") and click Upgrade.
+Visit [mfp.pe.user.js]("../../raw/master/mfp.pe.user.js") and click Upgrade.
 
 # How to use P:E
 Visit http://burnfatnotsugar.com/ProteinEnergy.html for more info.
