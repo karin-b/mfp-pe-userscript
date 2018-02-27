@@ -1,5 +1,5 @@
 # Protein to energy ratio (P:E) for MyFitnessPal(MFP)
-This script will add a P:E column to your MFP diary.
+This script will add a P:E column to your MFP diary. Visit [Burn Fat Not Sugar](http://burnfatnotsugar.com/ProteinEnergy.html) for more info.
 > __Requires__ the following columns in MFP: Fat, Protein, and Carbs.
 
 ## Install:
@@ -17,7 +17,7 @@ Visit [mfp.pe.user.js](https://github.com/karin-b/mfp-pe-userscript/raw/master/m
 Visit http://burnfatnotsugar.com/ProteinEnergy.html for more info.
 
 ## Fat loss:
-Eat a P:E ratio of above 1.2 for fat loss.
+Eat foods with a P:E ratio above 1.2.
 
 ## Maintenance
-Eat a P:E ratio between 0.4 and 1.2
+Eat foods with a P:E ratio between 0.4 and 1.2.
