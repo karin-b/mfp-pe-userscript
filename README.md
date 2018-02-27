@@ -1,6 +1,6 @@
-# Protein to energy ratio (P:E) for MyFitnessPal
-
-> This script __requires__ the following columns: Fat, Protein, and Carbs.
+# Protein to energy ratio (P:E) for MyFitnessPal(MFP)
+This script will add a P:E column to your MFP diary.
+> __Requires__ the following columns in MFP: Fat, Protein, and Carbs.
 
 ## Install:
 1. Install Tampermonkey for your browser:
