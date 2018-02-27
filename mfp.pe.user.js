@@ -2,6 +2,7 @@
 // @name            MyFitnessPal protein to energy ratio (P:E)
 // @version         1.0
 // @namespace       karin-b
+// @author          karin-b
 // @description     Adds display of P:E ratio to any daily food diary page.
 // @downloadURL     https://github.com/karin-b/mfp-pe-userscript
 // @include         http*://www.myfitnesspal.com/food/diary*
@@ -46,14 +47,7 @@ function exec(fn) {
     document.body.removeChild(script); // clean up
 }
 
-function startRun() {
-    var script = document.createElement("script");
-    script.setAttribute("src", "//www.google.com/jsapi");
-    script.addEventListener('load', function() {
-        exec(jsapiLoaded);
-    }, false);
-    document.body.appendChild(script);
-
+function startRun_mfp_pe() {
     script = document.createElement("script");
     script.setAttribute("src", "//ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js");
     script.addEventListener('load', function() {
@@ -63,17 +57,15 @@ function startRun() {
 
     script = document.createElement('script');
     script.setAttribute("type", "application/javascript");
-    script.textContent = main;
+    script.textContent = main_mfp_pe;
     document.body.appendChild(script);
+
+    main_mfp_pe();
 }
 
-startRun();
+startRun_mfp_pe();
 
-function jsapiLoaded() {
-    google.load("visualization", "1", { packages: ["corechart"], "callback": main });
-}
-
-function main() {
+function main_mfp_pe() {
     var calories_i = 0;
     var net_carbs_i = 0;
     var carbs_i = 0;
