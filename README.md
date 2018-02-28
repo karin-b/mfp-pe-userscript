@@ -1,12 +1,12 @@
 # Protein to energy ratio (P:E) for MyFitnessPal(MFP)
-This script will add a P:E column to your MFP diary. Visit [Burn Fat Not Sugar](http://burnfatnotsugar.com/ProteinEnergy.html) for more info.
+This script will add a P:E column to your MFP diary. Visit [Burn Fat Not Sugar](http://burnfatnotsugar.com) for more info.
 > __Requires__ the following columns in MFP: Fat, Protein, and Carbs.
 
 ## Install:
 1. Install Tampermonkey for your browser:
-   * __Chrome__: Install [Tampermonkey](https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo)
-   * __Safari__: Install [Tampermonkey](https://tampermonkey.net/?ext=dhdg&browser=safari)
-   * __Firefox__: Install [Tampermonkey](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
+   * [Chrome](https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+   * [Safari](https://tampermonkey.net/?ext=dhdg&browser=safari)
+   * [Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
 
 2. After installing the Tampermonkey plugin, go to [mfp.pe.user.js](https://github.com/karin-b/mfp-pe-userscript/raw/master/mfp.pe.user.js) to install this script.
 
