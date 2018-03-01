@@ -11,7 +11,7 @@ This script will add a P:E column to your MFP diary. Visit [Burn Fat Not Sugar](
 2. After installing the Tampermonkey plugin, click [here](https://github.com/karin-b/mfp-pe-userscript/raw/master/mfp.pe.user.js) to install this script.
 
 ## Upgrade:
-Click [here](https://github.com/karin-b/mfp-pe-userscript/raw/master/mfp.pe.user.js) and click Upgrade.
+To upgrade, click [here](https://github.com/karin-b/mfp-pe-userscript/raw/master/mfp.pe.user.js) and then click Upgrade.
 
 # How to use P:E
 Visit http://burnfatnotsugar.com/ProteinEnergy.html for more info.
